@@ -1,0 +1,343 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+
+    .container{
+        width: 100%;
+    }
+    // background-color: green;
+    width: 100%;
+    .publishHeader{
+        display: flex;
+        justify-content: space-between;
+        // background-color: red;
+        width: 95%;
+        margin: auto;
+        align-items: center;
+        .publishbook{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+        .socialmediaIcons{
+            display: flex;
+            gap: 1px;
+            .socialmedia{
+                border: 2px solid rgb(209, 202, 202);
+                width: 40px;
+                height: 40px;
+                align-items: center;
+                justify-content: center;
+                display: flex;
+                border-radius: 50%;
+                color: #4D4D4D;
+
+            }
+        }
+        .publishtext{
+            display: flex;
+            gap: 10px;
+            font-size: 25px;
+            font-weight: bolder;
+            .bluetext{
+                color: #000000;
+            }
+            .redtext{
+                color: #FF7A5C;
+            }
+        }
+        .bookpublish{
+            // background-color: red;
+            font-size: 15px;
+        }
+        .searchBox{
+            height: 50px;
+            .searchInp{
+                border: none;
+                background-color: #EFEFEF;
+                border-bottom-left-radius: 30px;
+                border-top-left-radius: 30px;
+                width: 80%;
+            }
+            .searchBtn{
+                background-color: #95ADBE;
+                border: none;
+                color: white;
+                border-bottom-right-radius: 30px;
+                border-top-right-radius: 30px;
+                width: 20%;
+            }
+        }
+    }
+    .publishNav{
+        li{
+            a:hover{
+                text-decoration: underline;
+            }
+        }
+        .publishNavbar{
+            // background-color: red;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            margin-top: 20px;
+            ul{
+                // background-color: yellow;
+                display: flex;
+                align-items: center;
+                margin: auto;
+                justify-content: space-between;
+                width: 90%;
+            }
+        }
+    }
+ 
+}
+@media only screen and (max-width: 993px) {
+     .inputBox{
+        display: none;
+         }
+}
+main{
+    background-color: #FFFFFF;
+    .goodBooks{
+        background-image: url(/assets/img/bg_1.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 700px;
+        padding: 30px;
+        .goodBooksdiv{
+            .container{
+                .goodBookstext{
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                    margin-top: 30px;
+                    padding-top: 30px;
+                    // background-color: rebeccapurple;
+                    width: 60%;
+                    h1{
+                        font-size: 60px;
+                    }
+                    button{
+                        height: 57px;
+                        width: 20%;
+                        border: none;
+                    }
+                    .viewbtn{
+                        background-color: #95ADBE;
+                        color: white;
+                    }
+                    .explorebtn{
+                        background-color: white;
+                    }
+                }
+            }
+        }
+    }
+    .total{
+        background-color: #F5F4F0;
+        margin-top: 30px;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        .container{
+            // background-color: red;
+            text-align: center;
+            .totaldiv{
+                p{
+                    font-size: 60px;
+                }
+                span{
+                    color: gray;
+                }
+            }
+        }
+    }
+    .apisectionn{
+        margin-top: 30px;
+        padding-top: 30px;
+    }
+    .familybackground{
+        margin-top: 30px;
+        padding-top: 30px;
+        background: linear-gradient(rgba(34, 111, 167, 0.5),rgba(34, 111, 167, 0.5)),url(/assets/img/bg_4.jpg);
+        // background-image: url(/assets/img/bg_4.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 400px;
+        padding: 30px;
+    }
+    .family{
+        position: relative;
+        // background-color: red;
+        bottom: 70px;
+        .container{
+            .faraway{
+                background-color: white;
+                margin: auto;
+                width: 90%;
+                padding: 30px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+                span{
+                    color: gray;
+                    font-size: 18px;
+                }
+                .mrscott{
+                    display: flex;
+                    gap: 10px;
+                    // background-color: red;
+                    align-items: center;
+                    margin-top: 15px;
+                 img{
+                        border-radius: 50%;
+                        width: 20%;
+                    }
+                }
+            }
+        }
+
+    }
+    .recentblog{
+        .container{
+            .blog{
+                // background-color: yellow;
+                text-align: center;
+                span{
+                    color: red;
+                    font-size: 23px;
+                }
+                h2{
+                    font-size: 50px;
+                }
+         }
+         .friendwithbooks{
+            img{
+                max-width: 100%;
+            }
+         }
+    }
+}
+.boxDiv{
+    width: 300px; 
+    align-items: center;
+    justify-content: center;
+    display: flex;  
+    flex-direction: column;
+    
+    }
+    
+    #productsList{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .apiimage{
+        max-width: 100%;
+        flex-wrap: wrap;
+        display: flex;
+    }
+    
+      .title{
+        font-size: 18px;
+        text-align: center;
+      }
+      .addtobasketbtn{
+        height: 39px;
+        font-size: 16px;
+        width: 120px;
+        border-radius: 10px;
+        border: 2px solid #717FE0;
+        color: #717FE0;
+      }
+      .addtobasketbtn:hover{
+        background-color: #717FE0;
+        transition: 0.3s;
+        color: white;
+      }
+      #btn:hover{
+        background-color: #717FE0;
+        transition: 0.3s;
+        color: white;
+      }
+      #btn{
+        height: 39px;
+        font-size: 16px;
+        width: 120px;
+        border-radius: 10px;
+        border: 2px solid #717FE0;
+        color: #717FE0;
+      }
+      #cartbtn{
+        height: 39px;
+        font-size: 16px;
+        width: 50px;
+        border-radius: 10px;
+        border: 2px solid #717FE0;
+        color: #717FE0;
+      }
+      #cartbtn:hover{
+        background-color: #717FE0;
+        transition: 0.3s;
+        color: white;
+      }
+      .btns{
+        margin-bottom: 30px;
+        margin-top: 30px;
+      }
+      .boxDiv{
+        margin-bottom: 20px;
+        border: 2px solid #4d5cba;
+        padding: 20px;
+        border-radius: 8px;
+    
+      }
+      #pagi{
+        height: 39px;
+        font-size: 16px;
+        width: 150px;
+        border-radius: 10px;
+        border: 2px solid #717FE0;
+        color: #717FE0;
+      }
+      #pagi:hover{
+        background-color: #717FE0;
+        transition: 0.3s;
+        color: white;
+      }
+      .blackfooter{
+        background-color: #222222;
+        width: 100%;
+        height: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 39px;
+      }
+      .images{
+        // background-color: red;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+    footer{
+        background-color: #000000;
+        .copyright{
+            color: gray;
+            height: 50px;
+            font-size: 18px;
+            display: flex;
+            align-items: center;
+            padding-left: 30px;
+            margin-top: 20px;
+        }
+    }

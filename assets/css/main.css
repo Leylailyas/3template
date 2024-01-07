@@ -1,0 +1,307 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+}
+header .container {
+  width: 100%;
+}
+header .publishHeader {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  margin: auto;
+  align-items: center;
+}
+header .publishHeader .publishbook {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+header .publishHeader .socialmediaIcons {
+  display: flex;
+  gap: 1px;
+}
+header .publishHeader .socialmediaIcons .socialmedia {
+  border: 2px solid rgb(209, 202, 202);
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-radius: 50%;
+  color: #4D4D4D;
+}
+header .publishHeader .publishtext {
+  display: flex;
+  gap: 10px;
+  font-size: 25px;
+  font-weight: bolder;
+}
+header .publishHeader .publishtext .bluetext {
+  color: #000000;
+}
+header .publishHeader .publishtext .redtext {
+  color: #FF7A5C;
+}
+header .publishHeader .bookpublish {
+  font-size: 15px;
+}
+header .publishHeader .searchBox {
+  height: 50px;
+}
+header .publishHeader .searchBox .searchInp {
+  border: none;
+  background-color: #EFEFEF;
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 30px;
+  width: 80%;
+}
+header .publishHeader .searchBox .searchBtn {
+  background-color: #95ADBE;
+  border: none;
+  color: white;
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
+  width: 20%;
+}
+header .publishNav li a:hover {
+  text-decoration: underline;
+}
+header .publishNav .publishNavbar {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 20px;
+}
+header .publishNav .publishNavbar ul {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  justify-content: space-between;
+  width: 90%;
+}
+
+@media only screen and (max-width: 993px) {
+  .inputBox {
+    display: none;
+  }
+}
+main {
+  background-color: #FFFFFF;
+}
+main .goodBooks {
+  background-image: url(/assets/img/bg_1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+  padding: 30px;
+}
+main .goodBooks .goodBooksdiv .container .goodBookstext {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 30px;
+  padding-top: 30px;
+  width: 60%;
+}
+main .goodBooks .goodBooksdiv .container .goodBookstext h1 {
+  font-size: 60px;
+}
+main .goodBooks .goodBooksdiv .container .goodBookstext button {
+  height: 57px;
+  width: 20%;
+  border: none;
+}
+main .goodBooks .goodBooksdiv .container .goodBookstext .viewbtn {
+  background-color: #95ADBE;
+  color: white;
+}
+main .goodBooks .goodBooksdiv .container .goodBookstext .explorebtn {
+  background-color: white;
+}
+main .total {
+  background-color: #F5F4F0;
+  margin-top: 30px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+main .total .container {
+  text-align: center;
+}
+main .total .container .totaldiv p {
+  font-size: 60px;
+}
+main .total .container .totaldiv span {
+  color: gray;
+}
+main .apisectionn {
+  margin-top: 30px;
+  padding-top: 30px;
+}
+main .familybackground {
+  margin-top: 30px;
+  padding-top: 30px;
+  background: linear-gradient(rgba(34, 111, 167, 0.5), rgba(34, 111, 167, 0.5)), url(/assets/img/bg_4.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+  padding: 30px;
+}
+main .family {
+  position: relative;
+  bottom: 70px;
+}
+main .family .container .faraway {
+  background-color: white;
+  margin: auto;
+  width: 90%;
+  padding: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+main .family .container .faraway span {
+  color: gray;
+  font-size: 18px;
+}
+main .family .container .faraway .mrscott {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-top: 15px;
+}
+main .family .container .faraway .mrscott img {
+  border-radius: 50%;
+  width: 20%;
+}
+main .recentblog .container .blog {
+  text-align: center;
+}
+main .recentblog .container .blog span {
+  color: red;
+  font-size: 23px;
+}
+main .recentblog .container .blog h2 {
+  font-size: 50px;
+}
+main .recentblog .container .friendwithbooks img {
+  max-width: 100%;
+}
+main .boxDiv {
+  width: 300px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+main #productsList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+main .apiimage {
+  max-width: 100%;
+  flex-wrap: wrap;
+  display: flex;
+}
+main .title {
+  font-size: 18px;
+  text-align: center;
+}
+main .addtobasketbtn {
+  height: 39px;
+  font-size: 16px;
+  width: 120px;
+  border-radius: 10px;
+  border: 2px solid #717FE0;
+  color: #717FE0;
+}
+main .addtobasketbtn:hover {
+  background-color: #717FE0;
+  transition: 0.3s;
+  color: white;
+}
+main #btn:hover {
+  background-color: #717FE0;
+  transition: 0.3s;
+  color: white;
+}
+main #btn {
+  height: 39px;
+  font-size: 16px;
+  width: 120px;
+  border-radius: 10px;
+  border: 2px solid #717FE0;
+  color: #717FE0;
+}
+main #cartbtn {
+  height: 39px;
+  font-size: 16px;
+  width: 50px;
+  border-radius: 10px;
+  border: 2px solid #717FE0;
+  color: #717FE0;
+}
+main #cartbtn:hover {
+  background-color: #717FE0;
+  transition: 0.3s;
+  color: white;
+}
+main .btns {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+main .boxDiv {
+  margin-bottom: 20px;
+  border: 2px solid #4d5cba;
+  padding: 20px;
+  border-radius: 8px;
+}
+main #pagi {
+  height: 39px;
+  font-size: 16px;
+  width: 150px;
+  border-radius: 10px;
+  border: 2px solid #717FE0;
+  color: #717FE0;
+}
+main #pagi:hover {
+  background-color: #717FE0;
+  transition: 0.3s;
+  color: white;
+}
+main .blackfooter {
+  background-color: #222222;
+  width: 100%;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 39px;
+}
+main .images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+  background-color: #000000;
+}
+footer .copyright {
+  color: gray;
+  height: 50px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  margin-top: 20px;
+}
